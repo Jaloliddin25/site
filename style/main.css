@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+   text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    background: black;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+.wrapper{
+    display: flex;
+    justify-content: center;
+   margin-top: 150px
+}
+.web{
+
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #ffffff;
+}
+.web ul{
+    display: flex;
+   
+}
+span{
+    /* background: white; */
+    font-size: 40px;
+    color: #ffffff;
+    padding:5px;
+    padding-left: 5px;
+}
+.fab{
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #ffffff;
+    padding-right: 20px;
+}
+.fa-instagram{
+    padding-left: 7px;
+    transition: 300ms;
+}
+.fa-instagram:hover{
+    color: transparent;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    -webkit-background-clip: text;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #893dc2;
+}
+.fa-telegram-plane{
+    padding-left: 6px;
+    transition: 400ms;
+}
+.fa-telegram-plane:hover{
+    color: transparent;
+    background: #00d4ff;
+    -webkit-background-clip: text;
+    box-shadow: 0 0 10px #5258cf ;
+    transform: scale(1.2);
+}
+.fa-facebook-f{
+    padding-left: 12px ;
+    transition: 400ms;
+}
+.fa-facebook-f:hover{
+    color: transparent;
+    background: #4267B2;
+    -webkit-background-clip: text;
+    box-shadow: 0 0 10px #5258cf;
+    transform: scale(1.2);
+}
+.fa-tiktok{
+    padding-left: 8px;
+    transition: 400ms;
+}
+.fa-tiktok:hover{
+    color: transparent;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    -webkit-background-clip: text;
+    box-shadow: 0 0 10px ;
+    transform: scale(1.2);
+}
+/* @media (max-width:576px) {
+    .web{
+        width: 450px;
+    height: 200px;
+    }
+
+} */
+@media (max-width:762px) {
+    .web ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .web ul li{
+        padding-bottom: 20px;
+    }
+    .web{
+        width: 300px;
+        height: 400px;    }
+}
